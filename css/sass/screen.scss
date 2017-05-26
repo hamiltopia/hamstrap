@@ -5,7 +5,7 @@
 @import "bs/mixins";
 
 // Reset and dependencies
-@import "bs/normalize";
+//@import "bs/normalize";
 @import "bs/print";
 @import "bs/glyphicons";
 
@@ -28,17 +28,17 @@
 @import "bs/breadcrumbs";
 @import "bs/pagination";
 @import "bs/pager";
-@import "bs/labels";
-@import "bs/badges";
-//@import "bs/jumbotron";
-@import "bs/thumbnails";
-@import "bs/alerts";
-@import "bs/progress-bars";
+//@import "bs/labels";
+//@import "bs/badges";
+@import "bs/jumbotron";
+//@import "bs/thumbnails";
+//@import "bs/alerts";
+//@import "bs/progress-bars";
 @import "bs/media";
 @import "bs/list-group";
 @import "bs/panels";
 @import "bs/responsive-embed";
-@import "bs/wells";
+//@import "bs/wells";
 @import "bs/close";
 
 // Components w/ JavaScript
@@ -50,3 +50,7 @@
 // Utility classes
 @import "bs/utilities";
 @import "bs/responsive-utilities";
+
+
+// Custom Stylesheets
+@import "custom";

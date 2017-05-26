@@ -4,7 +4,7 @@
 			<meta charset="utf-8">
 
 			<title>Hamstrap</title>
-			<meta name="description" content="The HTML5 Template">
+			<meta name="description" content="Mike's custom Bootstrap">
 			<meta name="author" content="Hamiltopia">
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 			<!-- Custom Styles --><link rel="stylesheet" href="css/stylesheets/screen.css">
@@ -16,7 +16,7 @@
 
 		<body>
 
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -31,6 +31,7 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
               <li><a href="#">Link</a></li>
@@ -47,12 +48,16 @@
                 </ul>
               </li>
             </ul>
+
+
             <form class="navbar-form navbar-left">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
+
+
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Link</a></li>
               <li class="dropdown">
@@ -66,32 +71,66 @@
                 </ul>
               </li>
             </ul>
+
           </div><!-- /.navbar-collapse -->
+
         </div><!-- /.container-fluid -->
       </nav><!-- navbar -->
 
-			<header id="head" class="container-fluid">
+      <header id="head" class="jumbotron">
+        <div class="container">
+          <h1>Hello, world!</h1>
+          <p>Paragraph <strong>Bold</strong> <em>Italic</em> «   © × ® @ & °   » enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+        </div>
+      </header>
+
+
+
+			<main id="main" class="container-fluid">
 				<div class="container">
-					<div class="row">
-						<section class="col-md-12">
 
-							<h1>Hello</h1>
-							<p>This is where page content will go.</p>
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+          </ol>
 
-						</section><!-- column -->
-					</div><!-- row -->
-				</div><!-- container -->
-			</header><!-- container-fluid -->
-
-
-
-			<div id="main" class="container-fluid">
-				<div class="container">
 					<div class="row">
 						<section class="col-md-8">
 
-							<h1>Hello</h1>
-							<p>This is where page content will go.</p>
+              <h1>Heading One</h1>
+              <h2>Heading Two</h2>
+              <h3>Heading Three</h3>
+              <h4>Heading Four</h4>
+              <h5>Heading Five</h5>
+              <h6>Heading Six</h6>
+              <p>Paragraph <strong>Bold</strong> <em>Italic</em> «   © × ® @ & °   » enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+
+
+              <br><br><br>
+
+
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFile">File input</label>
+                  <input type="file" id="exampleInputFile">
+                  <p class="help-block">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Check me out
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
 
 						</section><!-- column -->
 						<aside class="col-md-4">
@@ -102,9 +141,10 @@
 						</aside><!-- column -->
 					</div><!-- row -->
 				</div><!-- container -->
-			</div><!-- container-fluid -->
+			</main><!-- container-fluid -->
 
-			<div id="foot" class="container-fluid">
+
+			<footer id="foot" class="container-fluid">
 				<div class="container">
 					<div class="row">
 						<section class="col-md-4">
@@ -127,7 +167,7 @@
 						</section><!-- column -->
 					</div><!-- row -->
 				</div><!-- container -->
-			</div><!-- container-fluid -->
+			</footer><!-- container-fluid -->
 
 			<!-- Javascript -->
 			<!-- jQuery --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
